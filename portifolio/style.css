@@ -43,7 +43,16 @@
 
     .skills, .projetos, .contato {
       margin-top: 40px;
+      
     }
+    .card {
+        transition: transform 0.2s;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }   
+
 
     h3 {
       font-size: 24px;
@@ -58,10 +67,15 @@
       gap: 20px;
     }
 
+    .card img{
+        width: 200px;
+        height: 200px;
+    }
+
     .card {
       background-color: #4153ff;
       padding: 20px;
-      width: 200px;
+      width: 300px;
       border-radius: 8px;
       text-align: center;
     }
@@ -120,3 +134,15 @@
       color: red;
       font-size: 13px;
     }
+    .card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+a, a:visited, a:active {
+  color: #fff;
+  text-decoration: none;
+}
