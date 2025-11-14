@@ -1,0 +1,166 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "rajdhani";
+    }
+
+
+
+    body {
+      background-color: #1e1e1e;
+      color: #fff;
+    }
+
+    header {
+      background-color: #111;
+      padding: 15px 0;
+      text-align: center;
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+    footer {
+      background-color: #111;
+      padding: 30px 0;
+      text-align: center;
+      font-size: 15px;
+      letter-spacing: 2px;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .perfil img {
+      width: 420px;
+      height: 420px;
+      border-radius: 50%;
+      background-color: #4153ff;
+      margin-bottom: 15px;
+    }
+
+    .perfil h2 {
+      font-size: 22px;
+    }
+
+    .perfil p {
+      font-size: 20px;
+      color: #ccc;
+      margin-top: 10px;
+    }
+
+    .skills, .projetos, .contato {
+      margin-top: 40px;
+    
+      
+    }
+    
+    .skills h3, .projetos h3, .contato h3{
+      font-family: "orbitron";
+    }
+
+
+    .card {
+        transition: transform 0.2s;
+    }
+
+    
+
+    .card:hover {
+        transform: scale(1.05);
+    }   
+
+
+    h3 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .card {
+      background-color: #4153ff;
+      padding: 20px;
+      width: 300px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .card h4 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+    }
+
+    /* Formulário de contato */
+    form {
+      
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 350px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #25D366;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      border-radius: 5px;
+      margin-top: 15px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #20b858;
+    }
+
+    .erro {
+      color: red;
+      font-size: 13px;
+    }
+    .card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+a, a:visited, a:active {
+  color: #fff;
+  text-decoration: none;
+}

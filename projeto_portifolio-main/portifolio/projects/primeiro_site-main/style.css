@@ -1,0 +1,589 @@
+/* Geral */
+html {
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:"Bebas Neue" ;
+}
+.btn {
+    margin-top: 20px;
+    align-self: center;
+    background: #FF6600;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn :hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #e65c00;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+}
+/* Geral Fim */
+
+    /* Cabeçalho inicio */
+        header {
+            background: #ffffff;
+            color: #0F7DE2;
+            padding: 16px 0;
+        }
+        .nav-container {
+            max-width: 900px;
+            margin: 10px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            width: 100%;
+            padding: 0;
+        
+        }
+        
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .logo img{
+            height: 60px;
+        }
+
+        /* Adicione este bloco para alinhar a navegação à direita */
+        nav {
+            padding-left: 100%;
+            
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 50px;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            font-size: 20px;
+        }
+
+        nav a {
+            color: #0F7DE2;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        .nav-container {
+    max-width: 900px;
+    margin: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 20px; /* Espaço entre os itens */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+        
+    /* cabeçalho fim */
+
+    /* Topo do site inicio */
+        .slogan-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0;
+            background-color: #0F7DE2;
+            padding: 7%;
+            border: black 0px solid;
+        }
+
+        .slogan-img {
+            max-width: 500px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .slogan-text {
+            font-size: 23px;
+            color: #ffffff;
+            text-align: center;
+            width: 50%;
+            font-family: "Bebas Neue", sans-serif;
+        }
+        
+    /* topo do site fim */
+
+
+
+    /* Destaques */
+
+    .destaques-container{
+        font-size: 23px;
+        margin-top: 40px;
+        text-align: center;
+        color:#0F7DE2
+    }
+
+    .destaques-container .card{
+        border: 2px solid #000000;
+        border-radius: 8px;
+        padding: 20px;
+        margin: 40px;
+        width: 300px;
+        height: auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+        background-color: #0F7DE2;
+        color: #ffffff;
+        justify-content: center;
+        display: inline-block;
+    }
+
+        .destaques-container .card p{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 12px;
+        font-family: "nunito";
+    }
+    
+    .destaques-container .card:hover{
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+    .destaques-container .card img{
+        width: auto;
+        height: 200px;
+        border-radius: 8px;
+    }
+
+    /* Destaques Fim */
+
+
+    
+    /* Noticias */
+    .noticias-container{
+        
+        text-align: center;
+        font-size: 'Bebas Neue';
+        color:#0F7DE2;
+        
+    }
+    .card-noticias{
+        width:100%;
+        max-width: 900px;
+        background:#0F7DE2;
+        border-radius:20px;
+        padding:20px;
+        color: #fff;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+        margin: 30px auto;
+
+    }
+    
+    .card-noticias img{
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+    
+    }
+
+    .card-noticias h2{
+        
+        font-family: 'Bebas Neue';
+
+        
+    }
+    .card-noticias button{
+        width: auto;
+        background: #FF6600;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 100px 100px 100px 100px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s, color 0.3s;
+        margin-top: 15px;
+    }
+    .card-noticias button:hover{
+        
+        background: #e65c00;
+        border: 2px solid #E55618;
+        transform: scale(1.2);
+    }
+    /* Noticias Fim */
+    /* Jogos da Semana */
+    .jogos{
+        font-size: 23px;
+        margin-top: 40px;
+        text-align: center;
+        color:#0F7DE2
+    }
+    .jogos {
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+.jogos-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    justify-items: center;
+}
+
+.jogo-card {
+    background: #2176FF;
+    border-radius: 20px;
+    color: #fff;
+    width: 320px;
+    padding: 20px 20px 15px 20px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.jogo-numero {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    background: #FF6600;
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: 'Bebas Neue', sans-serif;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.jogo-titulo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.jogo-card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.jogo-info {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1rem;
+    margin: 10px 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.jogo-btn {
+    background: #FF6600;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-family: 'B', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+
+.jogo-btn:hover {
+    transform: scale(1.2);
+    background: #e65c00;
+}
+
+.baixo ul{
+    text-align: center;
+    color: #0F7DE2;
+    font-size: 20px;
+    text-decoration: none;
+    text-decoration: overline;
+}
+
+    /* Slide Noticias */
+
+.slide {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides-noticias {
+    width: 300%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    transition: 2s;
+}
+
+.slides input{
+    display: none;
+}
+
+.navegacao-manual {
+    position: relative;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background: #40D3DC;
+}
+#radio1:checked ~ .slides-noticias{
+    margin-left: 0;
+}
+#radio2:checked ~ .slides-noticias{
+    margin-left: -100%;
+}
+#radio3:checked ~ .slides-noticias{
+    margin-left: -200%;
+}
+
+.navegacao-auto div{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    }
+.navegacao-auto {
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+    display: none;
+    justify-content: center;
+    
+}
+.navegacao-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navegacao-auto .auto-btn1{
+    background: #40D3DC;
+}
+#radio2:checked ~ .navegacao-auto .auto-btn2{
+    background: #40D3DC;
+}
+#radio3:checked ~ .navegacao-auto .auto-btn3{
+    background: #40D3DC;
+}
+#radio4:checked ~ .navegacao-auto .auto-btn4{
+    background: #40D3DC;
+}
+.slide_noticias {
+    display: none;
+}
+#radio1:checked ~ .slides-container .slide_noticias:first-child { display: block; }
+#radio2:checked ~ .slides-container .slide_noticias:nth-child(2) { display: block; }
+#radio3:checked ~ .slides-container .slide_noticias:nth-child(3) { display: block; }
+input[type="radio"] {
+    display: none;
+}
+#radio1:checked ~ .navegacao-manual label[for="radio1"],
+#radio2:checked ~ .navegacao-manual label[for="radio2"],
+#radio3:checked ~ .navegacao-manual label[for="radio3"] {
+background: #40D3DC;   
+}
+
+.titulo{
+
+    text-align: center;
+    font-size: 'Bebas Neue';
+    color:#0F7DE2;
+}
+/* footer */
+footer {
+    background: #0F7DE2;
+    color: #fff;
+    padding: 30px 0 10px 0;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 30px; /* margem à esquerda */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* alinha à esquerda */
+    gap: 5px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+    font-size: 25px;
+}
+
+footer ul li a:hover {
+    color: #ffd700;
+}
+
+footer p {
+    margin: 5px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Adicionado para centralizar verticalmente */
+    background: #0F7DE2;
+    padding: 52px 0 0 0;
+    color: #fff;
+    margin: 0px -20px 0 -20px;
+    
+}
+.footer h4 {
+
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin-left:100px ;
+}
+.footer-links,
+.footer-contact,
+.footer-social {
+ 
+    flex: 1;
+}
+
+.footer-links ul, a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.footer-links ul :hover {
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+    color: #e65c00;
+    transform: scale(1.01) ; /* aumenta 5% */
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+.footer-content-row {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza verticalmente os itens */
+    width: 100%;
+    max-width: 1000px;
+    gap: 100px;
+    margin-bottom: 24px;
+}
+.footer-contact {
+    text-align: left;}
+
+.footer-social {
+    text-align: right;
+}
+
+.footer-social ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0 23px 0 0;
+}
+
+.footer-social ul :hover {
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+    color: #ac2727;
+    transform: scale(1.01) ; /* aumenta 5% */
+}
+
+
+.footer-social ul img{
+width: 30px;
+}
+
+
+
+.footer-links {
+    border-left: 3px solid #ffffff;
+
+}
+
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    color: #ac2727;
+}
+
+header .nav-container {
+    width: 100%;
+}
+
+
+
+

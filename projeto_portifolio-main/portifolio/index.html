@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>Portifolio</header>
+
+  <section class="perfil">
+    <img src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png" alt="Foto de perfil">
+    <h2>Bernardo Vinicius Bezerra Mendes</h2>
+    <p>Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e pelo processo de transformar ideias em soluções funcionais. Gosto de entender como as coisas funcionam por trás do código e estou sempre buscando aprimorar minhas habilidades em programação, lógica e desenvolvimento de software.Tenho facilidade em aprender novas ferramentas, trabalhar em equipe e resolver problemas de forma prática e objetiva. Meu objetivo é evoluir continuamente, construir projetos que façam diferença e iniciar minha trajetória profissional contribuindo para soluções eficientes e inovadoras.</p>
+  </section>
+
+  <section class="skills">
+    <h3>SKILLS</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>Linguagem: HTML</h4>
+        <p>Nível: INTERMEDIÁRIO</p>
+      </div>
+      <div class="card">
+        <h4>Linguagem: PYTHON</h4>
+        <p>Nível: INTERMEDIÁRIO</p>
+      </div>
+      <div class="card">
+        <h4>Linguagem: JAVASCRIPT</h4>
+        <p>Nível: INICIANTE</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos">
+    <h3 >PROJETOS</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>Projetos Feitos</h4>
+        <a href="projects/Lampada - Atividade/index.html" target="_blank">PROJETO LAMPADA JS</a>
+      </div>
+      <div class="card">
+        <h4>Projetos Feitos</h4>
+        <a href="projects/atividade 1/index.html" target="_blank">PROJETO JAVASCRIPT</a>
+      </div>
+      <div class="card">
+        <h4>Projetos Feitos</h4>
+        <a href="projects/primeiro_site-main/index.html" target="_blank">SITE BRAZUCA PLAY</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato">
+    <h3>CONTATO</h3>
+    <form id="formulario">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" placeholder="Seu nome">
+      <div id="erro-nome" class="erro"></div>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" placeholder="Seu e-mail">
+      <div id="erro-email" class="erro"></div>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" rows="5" placeholder="Digite sua mensagem..."></textarea>
+      <div id="erro-mensagem" class="erro"></div>
+
+      <button type="submit">Enviar</button>
+    </form>
+    
+  </section>
+
+
+<footer>©Bernardo Mendes - 2025</footer>
+<script src="script.js"></script>
+</body>
+</html>
